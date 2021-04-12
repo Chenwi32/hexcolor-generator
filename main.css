@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;text-align: center;
+}
+
+.colorBtn{
+    background-color: aqua;
+    font-size: 1.1em;
+    padding: 0.5em;
+    border-radius: 12px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.514);
+    outline: none;
+    text-transform: capitalize;
+    margin-top: 1.5em;
+}
+
+.colorBtn:hover{
+    transform: scale(0.99);
+}
